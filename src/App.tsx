@@ -249,11 +249,11 @@ export default function App() {
       {/* 1. Header Bar */}
       <header className="sticky top-0 z-50 bg-stone-50/85 backdrop-blur-md border-b border-stone-200 px-3 sm:px-4 py-3">
         <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-          <div className="flex items-center gap-3 min-w-0">
+          <div className="flex items-center gap-3 shrink-0">
             <div className="relative flex items-center justify-center shrink-0">
               <CloverLogo size={44} showBackground={true} />
             </div>
-            <div className="flex flex-col md:flex-row md:items-center gap-1 md:gap-3.5 min-w-0">
+            <div className="flex flex-col md:flex-row md:items-center gap-1 md:gap-3.5 shrink-0">
               {/* Brand Title Row */}
               <div className="flex items-baseline gap-1 sm:gap-1.5 shrink-0">
                 <span className="font-display font-black text-xl sm:text-2xl md:text-3xl tracking-tight text-stone-950 leading-none">
@@ -274,7 +274,7 @@ export default function App() {
           </div>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-6 shrink-0">
+          <nav className="hidden xl:flex items-center gap-6 shrink-0">
             <a href="#overview" className="text-xs font-semibold text-stone-600 hover:text-stone-900 uppercase tracking-wider transition-colors">Overview</a>
             <a href="#toxicology" className="text-xs font-semibold text-stone-600 hover:text-stone-900 uppercase tracking-wider transition-colors">Specimen Demo</a>
             <a href="#e-numbers" className="text-xs font-semibold text-stone-600 hover:text-stone-900 uppercase tracking-wider transition-colors">E-Numbers Index</a>
